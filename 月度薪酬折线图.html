@@ -1,0 +1,33 @@
+<!-- 本年月度薪酬折线图或柱状图 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>月度薪酬折线图、柱状图</title>
+    <link rel="stylesheet" href="../lib/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../lib/css/bootstrap-multiselect.css" type="text/css" />
+</head>
+
+<body>
+    <!-- 下拉列表 -->
+    <select id="sel_search_orderstatus" style="width:150px" multiple="multiple">
+        <option value="0">2017年</option>
+        <option value="5">2016年</option>
+        <option value="10">2015年</option>
+    </select>
+    <!-- 图表 -->
+    <div id="main" style="width: 600px;height:400px;"></div>
+
+    <script src="../lib/js/jquery.js"></script>
+    <script src="../lib/js/echarts.js"></script>
+    <script type="text/javascript" src="../lib/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../lib/js/bootstrap-multiselect.js"></script>
+    <script src="./salaryLine.js"></script>  
+</body>
+
+</html>
+<!-- <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/4.2.1/echarts.js"></script> -->
